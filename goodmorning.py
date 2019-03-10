@@ -14,3 +14,4 @@ if not GPIO.input(7):
 GPIO.output(8, GPIO.HIGH)
 sleep(0.2)
 GPIO.output(8, GPIO.LOW)
+print("Good morning, William.")
